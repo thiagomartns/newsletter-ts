@@ -3,6 +3,7 @@ import CallToAction from './components/callToAction/CallToAction';
 import Header from './components/header/Header';
 import MainForm from './components/mainForm/MainForm';
 import MainGrid from './components/mainGrid/MainGrid';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -14,11 +15,7 @@ function App() {
         <MainGrid />
         <CallToAction />
       </main>
-      <footer>
-        <p>Testando suas habilidades em HTML, CSS e JS.</p>
-        <p>Linx Impulse</p>
-        <p>2019</p>
-      </footer>
+      <Footer />
     </div>
   )
 }
