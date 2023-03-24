@@ -1,0 +1,29 @@
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.75rem 3rem 1rem;
+  gap: 1rem;
+}
+
+.call-to-action p {
+  width: 100%;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--light-grey);
+}
+
+.action-btn {
+  max-width: 25%;
+}
+
+@media screen and (min-width: 1024px) {
+  .call-to-action .main-title {
+    font-size: 1rem;
+  }
+
+  .call-to-action p {
+    margin: 1.5rem 0;
+  }
+}
