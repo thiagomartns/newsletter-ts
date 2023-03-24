@@ -15,42 +15,6 @@
   overflow-x: hidden;
 }
 
-main .first-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem 1.75rem 3rem 1rem;
-  gap: 1.75rem;
-  width: 100vw;
-}
-
-.first-form .first-form--text {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.first-form h2 {
-  color: var(--light-grey);
-  font-size: 1.25rem;
-  font-weight: 400;
-  align-self: start;
-}
-
-.first-form p {
-  color: var(--light-grey);
-  font-size: 0.75rem;
-  line-height: 1.2;
-  text-align: justify;
-  width: 80ch;
-}
-
-.first-form form {
-  display: flex;
-  flex-direction: column;
-}
-
 .input-flex {
   display: flex;
   flex-direction: column;
@@ -219,26 +183,6 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-  main .first-form {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 6rem;
-  }
-
-  .first-form .first-form--text {
-    justify-content: space-between;
-    gap: 2rem;
-  }
-
-  .first-form h2 {
-    font-size: 1.5rem;
-  }
-
-  .first-form p {
-    font-size: 0.875rem;
-    width: 60ch;
-  }
-
   .all-products-container {
     align-self: center;
     display: grid;
