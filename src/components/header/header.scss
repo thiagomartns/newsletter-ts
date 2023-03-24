@@ -1,0 +1,55 @@
+header {
+  background-color: var(--dark-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1.75rem 3rem 1rem;
+  gap: 3rem;
+  width: 100vw;
+}
+
+header .header-info {
+  color: var(--white);
+}
+
+header .header-info h2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+header .header-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+header .header-info p {
+  font-size: 0.875rem;
+}
+
+header .header-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+header .header-buttons .header-btn {
+  background-color: var(--white);
+  box-shadow: 0px 1px 6px #00000029;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  width: 160px;
+  height: 40px;
+  font-size: 0.875rem;
+  color: var(--light-grey);
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    text-align: center;
+  }
+
+  header .header-buttons {
+    display: flex;
+  }
+}
