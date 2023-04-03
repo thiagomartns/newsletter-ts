@@ -10,24 +10,15 @@ interface Product {
   price: number;
   description: string;
 }
-
-interface ProductResponse {
+interface ProductComponentProps {
   products: Product[];
 }
 
-const ProductComponent = () => {
-
-  const { data: products, isPending, error } = useFetch<ProductResponse>(
-    'https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=1'
-  );
-
-  if (isPending) return <p>Loading...</p>;
-  if (error) return <p>{error}</p>;
-  if (!products) return <p>No products found</p>;
+const ProductComponent: React.FC<ProductComponentProps> = ({ products }) => {
 
   return (
     <>
-      {products?.products.map((product) => (
+      {products?.map((product) => (
         <div className="product-container">
           <img src={product.image} />
           <div className="product-container--info">
