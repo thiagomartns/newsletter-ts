@@ -26,7 +26,7 @@ main .first-form {
   font-size: 0.75rem;
   line-height: 1.2;
   text-align: justify;
-  width: 80ch;
+  width: 50ch;
 }
 
 .first-form form {
@@ -53,5 +53,16 @@ main .first-form {
   .first-form p {
     font-size: 0.875rem;
     width: 60ch;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .first-form form {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-form p {
+    width: 100%;
   }
 }

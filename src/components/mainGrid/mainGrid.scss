@@ -12,7 +12,7 @@
 }
 
 .more-products--btn.buy-btn {
-  width: 50%;
+  width: 30%;
   height: 40px;
 }
 
@@ -26,6 +26,12 @@
   }
 
   .more-products--btn.buy-btn {
-    width: 10%;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .more-products--btn.buy-btn {
+    width: 75%;
   }
 }
