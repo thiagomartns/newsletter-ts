@@ -15,7 +15,7 @@
 }
 
 .action-btn {
-  max-width: 25%;
+  width: 50%;
 }
 
 @media screen and (min-width: 1024px) {
@@ -25,5 +25,9 @@
 
   .call-to-action p {
     margin: 1.5rem 0;
+  }
+
+  .action-btn {
+    width: 10%;
   }
 }
