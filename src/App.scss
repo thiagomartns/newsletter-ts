@@ -45,6 +45,7 @@ label {
   height: 39px;
   color: var(--light-grey);
   width: 385px;
+  cursor: pointer;
 }
 
 .main-title {
@@ -82,6 +83,7 @@ label {
   border: 1px solid var(--dark-grey);
   border-radius: 4px;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {
